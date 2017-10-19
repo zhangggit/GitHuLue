@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--设置透明标题-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--添加背景图-->
+        <item name="android:windowBackground">@mipmap/ic_launcher</item>
+        <!--全屏显示，防止卡死-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!--去掉标题-->
+        <item name="windowNoTitle">true</item>
+        <!--设置透明的背景-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--设置透明标题-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+</resources>
